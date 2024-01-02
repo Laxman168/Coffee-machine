@@ -61,10 +61,7 @@ def make_coffee(drink_name, order_ingredients):
     for item in order_ingredients:
         resources[item]-=order_ingredients[item]
     print(f'Here is your {drink_name}')
-
-
-
-
+    
 profit=0
 is_on=True
 while is_on:
